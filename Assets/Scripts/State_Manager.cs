@@ -87,6 +87,7 @@ public class State_Manager : MonoBehaviour
                 break;
 
             case StateChart.Final:
+                videoManager.MakeFinal();
                 //Go to Final Display
                 break;
 
